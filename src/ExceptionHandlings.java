@@ -1,0 +1,30 @@
+import OOPS.Print;
+
+import java.util.Scanner;
+
+public class ExceptionHandlings {
+    public static void main(String[] args) {
+        ExceptionHandlings exceptionHandlings=new ExceptionHandlings();
+        exceptionHandlings.processInput();
+
+    }
+
+    public  void processInput() {
+        Scanner sc = new Scanner(System.in);
+
+        try {
+            System.out.print(Print.ENTER_NUMBER);
+            int userInput = sc.nextInt();
+            // Ensure input is not zero to prevent division error
+            if (userInput == 0) {
+                System.out.println(Print.DIVIDE_BY_ZERO);
+            } else {
+                double reciprocal = 1 / userInput;
+                System.out.println(Print.RECIPROCAL_IS + reciprocal);
+            }
+
+        } catch (java.util.InputMismatchException e) {
+            System.out.println(Print.INVALID_INPUT);
+        }
+    }
+}
