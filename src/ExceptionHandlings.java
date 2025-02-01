@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class ExceptionHandlings {
     public static void main(String[] args) {
-        ExceptionHandlings exceptionHandlings=new ExceptionHandlings();
+        ExceptionHandlings exceptionHandlings = new ExceptionHandlings();
         exceptionHandlings.processInput();
 
     }
 
-    public  void processInput() {
+    public void processInput() {
         Scanner sc = new Scanner(System.in);
 
         try {
