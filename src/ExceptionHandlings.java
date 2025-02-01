@@ -15,7 +15,7 @@ public class ExceptionHandlings {
         try {
             System.out.print(Print.ENTER_NUMBER);
             double userInput = sc.nextInt();
-            // Ensure input is not zero to prevent division error
+            //  input is not zero to prevent division error
             if (userInput == 0) {
                 System.out.println(Print.DIVIDE_BY_ZERO);
             } else {
