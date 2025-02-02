@@ -4,9 +4,9 @@ public class FinalKeywordExample {
 
     public static void main(String[] args) {
         // Using the final class
-        FinalVariable finalVariable = new FinalVariable();
-        System.out.println("Value of G: " + finalVariable.getG());
-        finalVariable.showMessage();
+        FinalClassVariable finalClassVariable = new FinalClassVariable();
+        System.out.println("Value of G: " + finalClassVariable.getG());
+        finalClassVariable.showMessage();
 
         // Using the final method
         DerivedClass derived = new DerivedClass();

@@ -1,6 +1,6 @@
 package Final;
 
-public class FinalVariable {
+final class FinalClassVariable {
 
     private final float G = 9.8F;
 
