@@ -1,3 +1,5 @@
+package programs;
+
 public class StringProcessor {
 
         public static final String REVERSED_STRING_MESSAGE = "Reversed String: ";
@@ -54,6 +56,5 @@ public class StringProcessor {
         System.out.println(OCCURRENCE_COUNT_MESSAGE + occurrences);
         String capitalized = processor.splitAndCapitalize("java is fun");
         System.out.println(CAPITALIZED_STRING_MESSAGE + capitalized);
-
     }
 }
