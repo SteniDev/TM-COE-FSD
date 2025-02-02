@@ -22,6 +22,7 @@ public class ExceptionHandlings {
             System.out.println(Print.INVALID_INPUT);
         }
     }
+
     public static void main(String[] args) {
         ExceptionHandlings exceptionHandlings = new ExceptionHandlings();
         exceptionHandlings.processInput();
