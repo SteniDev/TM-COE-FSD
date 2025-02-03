@@ -2,9 +2,9 @@ package programs;
 
 public class StringProcessor {
 
-        public static final String REVERSED_STRING_MESSAGE = "Reversed String: ";
-        public static final String OCCURRENCE_COUNT_MESSAGE = "Occurrences Count: ";
-        public static final String CAPITALIZED_STRING_MESSAGE = "Capitalized String: ";
+    public static final String REVERSED_STRING_MESSAGE = "Reversed String is : ";
+    public static final String OCCURRENCE_COUNT_MESSAGE = "Occurrences Count is : ";
+    public static final String CAPITALIZED_STRING_MESSAGE = "Capitalized String is : ";
 
     public String reverseString(String inputString) {
         if (inputString == null || inputString.isEmpty()) {
