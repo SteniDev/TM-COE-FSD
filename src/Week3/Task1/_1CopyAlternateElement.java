@@ -4,7 +4,7 @@ package Week3.Task1;
 
 import java.util.Arrays;
 
-public class CopyAlternateElement {
+public class _1CopyAlternateElement {
     public static void main(String[] args) {
         int[] arr = {5, 7, 55, 76, 45, 77};
 
