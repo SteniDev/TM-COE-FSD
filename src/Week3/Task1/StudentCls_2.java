@@ -1,8 +1,6 @@
 package Week3.Task1;
 
-import java.util.List;
-
-public class _2Student {
+public class StudentCls_2 {
     private String name;
     private int[] marks;
     private int total;
@@ -24,7 +22,7 @@ public class _2Student {
         return average;
     }
 
-    public _2Student(String name, int[] marks) {
+    public StudentCls_2(String name, int[] marks) {
         this.name = name;
         this.marks = marks;
     }

@@ -3,11 +3,11 @@ package Week3.Task1;
 import java.util.*;
 
 //task 2 : write a java program to accept the students name and marks in subjects and find the total and average of the  marks and sort the list accordingly
-public class _2 {
+public class Student_2 {
 
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
-            List<_2Student> students = new ArrayList<>();
+            List<StudentCls_2> students = new ArrayList<>();
 
             System.out.print("Enter the number of students: ");
             int numberOfStudents = scanner.nextInt();
@@ -27,10 +27,10 @@ public class _2 {
                 }
                 scanner.nextLine(); // Consume newline
 
-                students.add(new _2Student(name, marks));
+                students.add(new StudentCls_2(name, marks));
             }
-            Collections.sort(students,Comparator.comparingDouble(_2Student::getAverage).reversed());
-            for(_2Student stu:students)
+            Collections.sort(students,Comparator.comparingDouble(StudentCls_2::getAverage).reversed());
+            for(StudentCls_2 stu:students)
             {System.out.println(stu .getName()+"  "+stu .getAverage()) ;
         }
 
