@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
-
+//7. Write a Java program to read input from the Java console.
 public class ReadFileData {
     public static void main(String[] args) {
         // Specify the file path
