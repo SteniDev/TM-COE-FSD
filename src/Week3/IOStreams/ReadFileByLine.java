@@ -1,4 +1,4 @@
-package Week3.IOExceptions;
+package Week3.IOStreams;
 //10. Write a Java program to read file content line by line.
 import java.io.BufferedReader;
 import java.io.FileReader;

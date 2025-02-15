@@ -1,4 +1,4 @@
-package Week3.IOExceptions;
+package Week3.IOStreams;
 
 import java.io.*;
 import java.util.Scanner;

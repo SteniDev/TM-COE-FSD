@@ -1,4 +1,4 @@
-package Week3.IOExceptions;
+package Week3.IOStreams;
 
 // 1. Write a Java program to get a list of all file/directory names in the given directory.
 

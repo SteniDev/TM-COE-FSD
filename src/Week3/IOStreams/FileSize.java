@@ -1,4 +1,4 @@
-package Week3.IOExceptions;
+package Week3.IOStreams;
 //8. Write a Java program to get the file size in bytes, KB, MB.
 //
 import java.io.File;
