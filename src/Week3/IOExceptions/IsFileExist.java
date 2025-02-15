@@ -3,6 +3,8 @@ package Week3.IOExceptions;
 import java.io.File;
 import java.util.Scanner;
 
+//3. Write a Java program to check if a file or directory specified by pathname exists or not.
+
 public class IsFileExist {
     public static void main(String[] args) {
 

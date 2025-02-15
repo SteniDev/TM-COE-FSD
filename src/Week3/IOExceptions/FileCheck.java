@@ -2,7 +2,7 @@ package Week3.IOExceptions;
 
 import java.io.File;
 import java.util.Scanner;
-
+//4. Write a Java program to check if a file or directory has read and write permissions.
 public class FileCheck {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

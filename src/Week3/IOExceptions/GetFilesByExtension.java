@@ -3,7 +3,7 @@ package Week3.IOExceptions;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.util.Arrays;
-
+//2. Write a Java program to get specific files with extensions from a specified folder.
 public class GetFilesByExtension {
     public static void main(String[] args) {
         // Specify the folder path and the desired file extension
