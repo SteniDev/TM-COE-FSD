@@ -7,7 +7,7 @@ import java.util.Date;
 public class LastModifiedDate {
     public static void main(String[] args) {
         // Specify the file path
-        String filePath = "S:/java/TechM/src/Week3/IOExceptions/ListOfAllFiles.java"; // Change this to the actual file path
+        String filePath = "S:/java/TechM/src/Week3/IOExceptions/ListOfAllFiles.java";
 
         // Create a File object
         File file = new File(filePath);
