@@ -3,7 +3,7 @@ package Week3.collectionsApi;
 import java.util.LinkedList;
 import java.util.List;
 
-public class InsertMultipleElements {
+public class MultipleElementsInsertingLinked {
 	public static void main(String[] args) {
 		LinkedList<String> list = new LinkedList<>( List.of("Red", "Green"));
 		list.add(1, "Blue");

@@ -2,7 +2,7 @@ package Week3.collectionsApi;
 
 import java.util.ArrayList;
 
-public class ColorArrayList {
+public class ColorList {
 	public static void main(String[] args) {
 		ArrayList<String> colors = new ArrayList<String>();
 		colors.add("Red");
