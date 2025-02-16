@@ -14,7 +14,7 @@ public class FileNotFoundExample {
 
 	public static void main(String[] args) {
 		try {
-			readFile("C:\\\\Users\\\\Prawinraj\\\\Wrapper Class.txt"); // Change path accordingly
+			readFile( "S:\\java\\TechM\\src\\Name"); // Change path accordingly
 		} catch (FileNotFoundException e) {
 			System.out.println("Exception caught: File not found.");
 		}
