@@ -3,14 +3,15 @@ package Week3.Thread;
 import java.util.Arrays;
 
 class MergeSortThread extends Thread {
-    private int[] arr;
 
-    public MergeSortThread(int[] arr) {
-        this.arr = arr;
+    private int[] ar;
+
+    public MergeSortThread(int[] ar) {
+        this.ar = ar;
     }
 
     public void run() {
-        mergeSort(arr);
+        mergeSort(ar);
     }
 
     private void mergeSort(int[] arr) {

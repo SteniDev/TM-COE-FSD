@@ -2,12 +2,12 @@ package Week3.Thread;
 
 public class MatrixMultiplication {
 	public static void main(String[] args) {
-		int[][] A = { { 1, 2, 3 }, { 4, 5, 6 } };
-		int[][] B = { { 7, 8 }, { 9, 10 }, { 11, 12 } };
+		int[][] A = { { 3,2,1 }, { 88,77,99 } };
+		int[][] B = { { 6,3 }, { 2,3, }, { 11, 11 } };
 
-		int rowsA = A.length; // Number of rows in A
-		int colsB = B[0].length; // Number of columns in B
-		int[][] C = new int[rowsA][colsB]; // Result matrix
+		int rowsA = A.length; //  rows in A
+		int colsB = B[0].length; //  columns in B
+		int[][] C = new int[rowsA][colsB]; // Result
 
 		Thread[] threads = new Thread[rowsA]; // Create an array of threads
 
