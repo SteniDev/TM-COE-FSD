@@ -1,4 +1,4 @@
-package Week3.collectionApi;
+package Week3.collectionsApi;
 
 import java.util.ArrayList;
 
