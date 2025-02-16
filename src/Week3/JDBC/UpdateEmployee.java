@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class UpdateEmployee {
-    private static final String URL = "jdbc:mysql://localhost:3306/employee";
-    private static final String USER = "root"; // Change as per your database credentials
-    private static final String PASSWORD = "Dev@2003"; // Change as per your database credentials
+    public static final String URL = "jdbc:mysql://localhost:3306/employee";
+    public static final String USER = "root"; // Change as per your database credentials
+    public static final String PASSWORD = "Dev@2003"; // Change as per your database credentials
 
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
@@ -33,7 +33,7 @@ public class UpdateEmployee {
         }
     }
 
-    private static void updateEmployee(Connection conn, int id, String name, String phone) throws SQLException {
+    public static void updateEmployee(Connection conn, int id, String name, String phone) throws SQLException {
         String sql = "UPDATE employeedetails SET empname = ?, phoneno = ? WHERE empid = ?";
         try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setString(1, name);

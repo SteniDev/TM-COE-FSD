@@ -5,9 +5,9 @@ public class RecursiveInsert {
 
     // ... (Database credentials and other code as before)
 
-    private static final String URL = "jdbc:mysql://localhost:3306/employee";
-    private static final String USER = "root"; // Change as per your database credentials
-    private static final String PASSWORD = "Dev@2003"; // Change as per your database credentials
+   public static final String URL = "jdbc:mysql://localhost:3306/employee";
+   public static final String USER = "root"; // Change as per your database credentials
+    public static final String PASSWORD = "Dev@2003"; // Change as per your database credentials
 
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
@@ -25,7 +25,7 @@ public class RecursiveInsert {
         }
     }
 
-    private static void insertEmployees(Connection conn, Scanner scanner, int count) throws SQLException {
+    public static void insertEmployees(Connection conn, Scanner scanner, int count) throws SQLException {
         if (count <= 0) return;
 
         String sql = "INSERT INTO employeedetails (empname, empid, phoneno) VALUES (?, ?, ?)";
