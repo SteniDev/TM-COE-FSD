@@ -4,7 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class CheckNegativeNumbers {
+public class NegativeNumbersChecking {
+
     public static void checkNumbersInFile(String filePath) throws FileNotFoundException, PositiveNumberException {
         File file = new File(filePath);
         Scanner scanner = new Scanner(file);

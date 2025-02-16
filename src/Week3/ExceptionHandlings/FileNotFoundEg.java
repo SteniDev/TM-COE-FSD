@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class FileNotFoundExample {
+public class FileNotFoundEg {
 	public static void readFile(String filePath) throws FileNotFoundException {
 		File file = new File(filePath);
 		Scanner scanner = new Scanner(file);
