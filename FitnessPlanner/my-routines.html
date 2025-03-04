@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Routines - Fitness Routine Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Fitness Planner</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="create-routine.html">Create Routine</a></li>
+                <li><a href="my-routines.html" class="active">My Routines</a></li>
+                <li><a href="progress.html">Progress Tracker</a></li>
+            </ul>
+            <div class="mobile-menu">☰</div>
+        </nav>
+    </header>
+
+    <main class="my-routines-container">
+        <h1>My Routines</h1>
+        
+        <div class="routines-grid" id="routines-list">
+            <!-- Routines will be populated by JavaScript -->
+        </div>
+
+        <!-- Routine Details Modal -->
+        <div id="routine-modal" class="modal">
+            <div class="modal-content">
+                <h2 id="routine-detail-name"></h2>
+                <div id="routine-detail-exercises"></div>
+                <button id="start-routine" class="primary-button">Start Workout</button>
+                <button id="close-routine-modal" class="secondary-button">Close</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fitness Routine Planner. All rights reserved.</p>
+    </footer>
+</body>
+</html>

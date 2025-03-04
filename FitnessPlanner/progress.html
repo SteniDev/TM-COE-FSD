@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Tracker - Fitness Routine Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Fitness Planner</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="create-routine.html">Create Routine</a></li>
+                <li><a href="my-routines.html">My Routines</a></li>
+                <li><a href="progress.html" class="active">Progress Tracker</a></li>
+            </ul>
+            <div class="mobile-menu">☰</div>
+        </nav>
+    </header>
+
+    <main class="progress-container">
+        <section class="progress-overview">
+            <h1>Your Progress</h1>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Total Workouts</h3>
+                    <p id="total-workouts">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>This Week</h3>
+                    <p id="weekly-workouts">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Streak</h3>
+                    <p id="current-streak">0 days</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="progress-chart">
+            <h2>Weekly Progress</h2>
+            <canvas id="progress-chart"></canvas>
+        </section>
+
+        <section class="achievement-section">
+            <h2>Achievements</h2>
+            <div class="achievements-grid" id="achievements-list">
+                <!-- Achievements will be populated by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fitness Routine Planner. All rights reserved.</p>
+    </footer>
+</body>
+</html>
